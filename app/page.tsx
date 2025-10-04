@@ -80,8 +80,35 @@ export default function RadiusCalculator() {
         </div>
       </div>
 
+      {/* Table of Contents - Sticky */}
+      <div className="bg-white border-b border-gray-200 sticky top-0 z-10 shadow-sm">
+        <div className="max-w-6xl mx-auto px-4 py-4">
+          <details className="md:hidden">
+            <summary className="font-semibold text-gray-900 cursor-pointer">
+              Quick Navigation ▼
+            </summary>
+            <nav className="mt-3 space-y-2">
+              <a href="#calculator" className="block text-sm text-gray-600 hover:text-orange-600">Calculator</a>
+              <a href="#what-is-radius" className="block text-sm text-gray-600 hover:text-orange-600">What is Radius?</a>
+              <a href="#formulas" className="block text-sm text-gray-600 hover:text-orange-600">Three Formulas</a>
+              <a href="#examples" className="block text-sm text-gray-600 hover:text-orange-600">Examples</a>
+              <a href="#applications" className="block text-sm text-gray-600 hover:text-orange-600">Applications</a>
+              <a href="#faq" className="block text-sm text-gray-600 hover:text-orange-600">FAQ</a>
+            </nav>
+          </details>
+          <nav className="hidden md:flex md:items-center md:justify-center md:space-x-8">
+            <a href="#calculator" className="text-sm font-medium text-gray-700 hover:text-orange-600 transition-colors">Calculator</a>
+            <a href="#what-is-radius" className="text-sm font-medium text-gray-700 hover:text-orange-600 transition-colors">What is Radius?</a>
+            <a href="#formulas" className="text-sm font-medium text-gray-700 hover:text-orange-600 transition-colors">Formulas</a>
+            <a href="#examples" className="text-sm font-medium text-gray-700 hover:text-orange-600 transition-colors">Examples</a>
+            <a href="#applications" className="text-sm font-medium text-gray-700 hover:text-orange-600 transition-colors">Applications</a>
+            <a href="#faq" className="text-sm font-medium text-gray-700 hover:text-orange-600 transition-colors">FAQ</a>
+          </nav>
+        </div>
+      </div>
+
       <div className="max-w-6xl mx-auto px-4 py-12">
-        <div className="bg-white rounded-2xl shadow-xl p-8 mb-12">
+        <div id="calculator" className="bg-white rounded-2xl shadow-xl p-8 mb-12">
           <div className="flex flex-wrap gap-4 mb-8 border-b pb-4">
             <button
               onClick={() => setInputType('diameter')}
@@ -210,7 +237,7 @@ export default function RadiusCalculator() {
 
         <div className="bg-white rounded-2xl shadow-lg p-8 mb-12">
           <article className="max-w-none">
-            <h2 className="text-3xl font-bold text-gray-900 mb-6">
+            <h2 id="what-is-radius" className="text-3xl font-bold text-gray-900 mb-6">
               What is the Radius of a Circle?
             </h2>
 
@@ -222,7 +249,7 @@ export default function RadiusCalculator() {
               Understanding the radius is essential because it appears in nearly every circle formula. Whether you&apos;re calculating area, circumference, or working with circle equations in coordinate geometry, the radius is the key measurement that unlocks all other properties. The radius is typically denoted by the letter &apos;r&apos; in mathematical formulas and is measured in linear units such as centimeters, inches, meters, or feet.
             </p>
 
-            <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">
+            <h2 id="formulas" className="text-2xl font-bold text-gray-900 mt-8 mb-4">
               Three Ways to Find the Radius of a Circle
             </h2>
 
@@ -290,7 +317,7 @@ export default function RadiusCalculator() {
               This method is essential when working with problems that give you the area first, such as finding the radius of a circular garden that covers 100 square meters, or determining the radius of a circular pizza that has 314 square inches of surface area. The square root operation ensures you get a linear measurement (the radius) from an area measurement.
             </p>
 
-            <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">
+            <h2 id="examples" className="text-2xl font-bold text-gray-900 mt-8 mb-4">
               Step-by-Step Examples
             </h2>
 
@@ -374,7 +401,7 @@ export default function RadiusCalculator() {
               The area has a squared relationship with the radius (A = πr²), which means if you double the radius, the area increases by a factor of four. This is because area is two-dimensional. A circle with a radius of 5 cm has an area of about 78.5 cm², but a circle with a radius of 10 cm has an area of about 314 cm² - four times as much, not twice as much.
             </p>
 
-            <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">
+            <h2 id="applications" className="text-2xl font-bold text-gray-900 mt-8 mb-4">
               Real-World Applications of Radius Calculations
             </h2>
 
@@ -446,7 +473,7 @@ export default function RadiusCalculator() {
               While 3.14 is a common approximation for π, using more decimal places (3.14159) gives more accurate results. For most practical purposes, using the π button on a calculator is best. Some textbooks use 22/7 as an approximation, but 3.14159 is more accurate. The level of precision you need depends on your application - a carpenter might round to 3.14, while an aerospace engineer would use many more decimal places.
             </p>
 
-            <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">
+            <h2 id="faq" className="text-2xl font-bold text-gray-900 mt-8 mb-4">
               Frequently Asked Questions
             </h2>
 

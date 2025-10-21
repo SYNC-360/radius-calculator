@@ -479,7 +479,7 @@ export default function RadiusCalculator() {
             </div>
 
             <p className="text-gray-700 leading-relaxed mb-4">
-              The diameter is the distance across the circle passing through the center - it&apos;s the longest possible straight line you can draw within a circle. The radius is exactly half the diameter, making this the simplest radius calculation. If you know the diameter is 20 cm, the radius is simply 20 ÷ 2 = 10 cm. Once you have the radius, you can <a href="https://areaofcircle.com" className="text-orange-600 hover:text-orange-800 font-medium underline">calculate area using the radius</a>.
+              The diameter is the distance across the circle passing through the center - it&apos;s the longest possible straight line you can draw within a circle. The radius is exactly half the diameter, making this the simplest radius calculation. If you know the diameter is 20 cm, the radius is simply 20 ÷ 2 = 10 cm. Once you have the radius, you can <a href="https://areaofcircle.com" className="text-orange-600 hover:text-orange-800 font-medium underline">calculate area using the radius</a> or <a href="https://circumferenceofacircle.com" className="text-red-600 hover:text-red-800 font-medium underline">find circumference from radius</a>.
             </p>
 
             <p className="text-gray-700 leading-relaxed mb-6">
@@ -752,7 +752,7 @@ export default function RadiusCalculator() {
             </h3>
 
             <p className="text-gray-700 leading-relaxed mb-6">
-              The area has a squared relationship with the radius (A = πr²), which means if you double the radius, the area increases by a factor of four. This is because area is two-dimensional. A circle with a radius of 5 cm has an area of about 78.5 cm², but a circle with a radius of 10 cm has an area of about 314 cm² - four times as much, not twice as much. The radius is fundamental to <a href="https://equationofacircle.com" className="text-orange-600 hover:text-orange-800 font-medium underline">understanding how radius defines the equation of a circle</a> in coordinate geometry.
+              The area has a squared relationship with the radius (A = πr²), which means if you double the radius, the area increases by a factor of four. This is because area is two-dimensional. A circle with a radius of 5 cm has an area of about 78.5 cm², but a circle with a radius of 10 cm has an area of about 314 cm² - four times as much, not twice as much. The radius is fundamental to <a href="https://equationofacircle.com" className="text-orange-600 hover:text-orange-800 font-medium underline">understanding how radius defines the equation of a circle</a> in coordinate geometry. For practical applications, <a href="https://densityformula.com" className="text-orange-600 hover:text-orange-800 font-medium underline">see how radius affects surface area and density</a> in real-world calculations.
             </p>
 
             <h2 id="applications" className="text-2xl font-bold text-gray-900 mt-8 mb-4">
@@ -788,7 +788,7 @@ export default function RadiusCalculator() {
             </h3>
 
             <p className="text-gray-700 leading-relaxed mb-6">
-              Sports fields often feature circles: the center circle in soccer, the three-point arc in basketball, or the pitcher&apos;s mound in baseball. Understanding radius helps groundskeepers mark these areas accurately. Pool builders calculate radii for above-ground pools, and race track designers use radius calculations to plan curves that provide optimal racing conditions. For advanced geometric analysis, explore <a href="https://supplementaryangles.com" className="text-orange-600 hover:text-orange-800 font-medium underline">angle relationships in circle geometry</a>.
+              Sports fields often feature circles: the center circle in soccer, the three-point arc in basketball, or the pitcher&apos;s mound in baseball. Understanding radius helps groundskeepers mark these areas accurately. Pool builders calculate radii for above-ground pools, and race track designers use radius calculations to plan curves that provide optimal racing conditions. For advanced geometric analysis, explore <a href="https://supplementaryangles.com" className="text-orange-600 hover:text-orange-800 font-medium underline">angle relationships in circle geometry</a> to understand how circles interact with other geometric concepts.
             </p>
 
             <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">
@@ -1135,6 +1135,16 @@ export default function RadiusCalculator() {
           <a href="https://areaofcircle.com"
              className="text-blue-600 hover:text-blue-800 text-sm">
             Area Calculator (A = πr²)
+          </a>
+
+          <a href="https://equationofacircle.com"
+             className="text-blue-600 hover:text-blue-800 text-sm">
+            Circle Equation Solver
+          </a>
+
+          <a href="https://circumferenceofacircleformula.com"
+             className="text-blue-600 hover:text-blue-800 text-sm">
+            Circumference Formula Guide
           </a>
         </div>
       </div>

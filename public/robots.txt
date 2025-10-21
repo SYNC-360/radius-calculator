@@ -1,0 +1,85 @@
+# Radius Calculator - robots.txt
+# Optimized for search engines, AI platforms, and web crawlers
+
+# Allow all legitimate bots
+User-agent: *
+Allow: /
+Crawl-delay: 0
+
+# GPT Bot (ChatGPT training data collection)
+# Allows OpenAI's GPT models to crawl and use content for training
+User-agent: GPTBot
+Allow: /
+Crawl-delay: 0
+
+# ChatGPT user-driven crawler (for real-time web search in ChatGPT)
+User-agent: ChatGPT-User
+Allow: /
+Crawl-delay: 0
+
+# Claude Bot (Anthropic's crawler - respects robots.txt)
+User-agent: Claude-Web
+Allow: /
+Crawl-delay: 0
+
+# Claude Search Bot (Anthropic's search crawler)
+User-agent: Claude-SearchBot
+Allow: /
+Crawl-delay: 0
+
+# Perplexity Bot (Perplexity AI's crawler - respects robots.txt)
+User-agent: PerplexityBot
+Allow: /
+Crawl-delay: 0
+
+# Google-Extended (Google's AI/Gemini training crawler)
+User-agent: Google-Extended
+Allow: /
+Crawl-delay: 0
+
+# Apple Bot for AI applications
+User-agent: Applebot-Extended
+Allow: /
+Crawl-delay: 0
+
+# Microsoft Copilot and Bing AI
+User-agent: Copilot
+Allow: /
+Crawl-delay: 0
+
+User-agent: bingbot
+Allow: /
+Crawl-delay: 0
+
+# Common Crawl Bot (training data for open-source models)
+User-agent: CCBot
+Allow: /
+Crawl-delay: 0
+
+# Traditional search engines
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Slurp
+Allow: /
+Crawl-delay: 0
+
+# Disallow crawling of non-content directories
+Disallow: /api/
+Disallow: /.next/
+Disallow: /node_modules/
+Disallow: /*.json$
+
+# Allow crawling of static assets
+Allow: /*.svg$
+Allow: /*.css$
+Allow: /*.js$
+Allow: /public/
+
+# Sitemap location for all crawlers
+Sitemap: https://radius-calculator-60iainxfq-team-sync360.vercel.app/sitemap.xml

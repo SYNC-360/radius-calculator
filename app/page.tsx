@@ -397,36 +397,74 @@ export default function RadiusCalculator() {
         <div className="bg-white rounded-2xl shadow-lg p-8 mb-12">
           <article className="max-w-none">
             <h2 id="what-is-radius" className="text-3xl font-bold text-gray-900 mb-6">
-              What is the Radius of a Circle? Definition & Formula
+              What is the Radius of a Circle? Complete Definition & Guide
             </h2>
 
             <p className="text-gray-700 leading-relaxed mb-6">
-              The radius of a circle is the distance from the center point to any point on the circle&apos;s circumference. It is one of the most fundamental measurements in geometry and serves as the foundation for calculating all other circle properties. The radius is always constant for any given circle - no matter which point on the circumference you measure to, the distance from the center remains the same.
+              The radius of a circle is the distance from the center point to any point on the circle&apos;s circumference. It is one of the most fundamental measurements in geometry and serves as the foundation for calculating all other circle properties. The radius is always constant for any given circle - no matter which point on the circumference you measure to, the distance from the center remains the same. This is what mathematically defines a circle as a perfect geometric shape.
             </p>
 
             <p className="text-gray-700 leading-relaxed mb-6">
-              Understanding the radius is essential because it appears in nearly every circle formula. Whether you&apos;re calculating area, circumference, or working with circle equations in coordinate geometry, the radius is the key measurement that unlocks all other properties. The radius is typically denoted by the letter &apos;r&apos; in mathematical formulas and is measured in linear units such as centimeters, inches, meters, or feet.
+              Understanding what the radius of a circle is essential because it appears in nearly every circle formula. Whether you&apos;re calculating area, circumference, or working with circle equations in coordinate geometry, the radius is the key measurement that unlocks all other properties. The radius is typically denoted by the letter &apos;r&apos; in mathematical formulas and is measured in linear units such as centimeters, inches, meters, or feet.
             </p>
 
             <h3 className="text-xl font-bold text-gray-900 mt-6 mb-3">
-              Radius of a Circle Definition
+              What is a Radius? Simple Definition
             </h3>
 
             <p className="text-gray-700 leading-relaxed mb-4">
-              A simple radius definition: the radius of a circle is a straight line drawn from the exact center of the circle to its edge. All radii of a given circle have the same length. The key property of the radius is that it remains constant throughout the circle—this is what makes a circle mathematically perfect and unique.
+              The simplest radius definition: the radius of a circle is a straight line drawn from the exact center of the circle to its edge (the circumference). All radii of a given circle have the same length. The key property of the radius is that it remains constant throughout the circle—this is what makes a circle mathematically perfect and unique among geometric shapes.
             </p>
 
             <p className="text-gray-700 leading-relaxed mb-6">
-              The radius is what a circle is fundamentally defined by. You cannot have a circle without a radius, and the radius completely determines the size of the circle. Once you know the radius, you can calculate every other property: the diameter (twice the radius), the circumference (2πr), and the area (πr²).
+              The radius is what a circle is fundamentally defined by. You cannot have a circle without a radius, and the radius completely determines the size of the circle. Once you know the radius, you can calculate every other property: the diameter (twice the radius), the circumference (2πr), and the area (πr²). This relationship is why the radius is considered the primary measurement of any circle.
             </p>
 
+            <h3 className="text-xl font-bold text-gray-900 mt-6 mb-3">
+              Understanding Radius: Key Properties
+            </h3>
+
+            <div className="bg-blue-50 p-6 rounded-lg mb-6">
+              <ul className="space-y-3 text-gray-700">
+                <li className="flex items-start gap-3">
+                  <span className="text-blue-600 font-bold">•</span>
+                  <span><strong>Constant Distance:</strong> The radius is always the same distance from center to edge for any given circle</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-blue-600 font-bold">•</span>
+                  <span><strong>Determines Size:</strong> The radius value completely determines how large or small a circle is</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-blue-600 font-bold">•</span>
+                  <span><strong>Half the Diameter:</strong> The radius is exactly 50% of the diameter (r = d ÷ 2)</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-blue-600 font-bold">•</span>
+                  <span><strong>Foundation for Formulas:</strong> Nearly all circle calculations start with the radius value</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-blue-600 font-bold">•</span>
+                  <span><strong>Infinite Radii:</strong> A circle has infinite radii (all the same length) since you can draw lines from center to any point on the edge</span>
+                </li>
+              </ul>
+            </div>
+
             <h2 id="formulas" className="text-2xl font-bold text-gray-900 mt-8 mb-4">
-              How to Find the Radius of a Circle: Three Methods & Formulas
+              How to Find the Radius of a Circle: Three Complete Methods & Formulas
             </h2>
 
             <p className="text-gray-700 leading-relaxed mb-6">
-              There are three primary methods for calculating the radius of a circle, depending on which measurement you already know. Each method uses a specific formula derived from the fundamental relationships between circle properties. Our calculator above supports all three methods, allowing you to find the radius regardless of which measurement you have available.
+              There are three primary methods for calculating the radius of a circle, depending on which measurement you already know. Each method uses a specific formula derived from the fundamental relationships between circle properties. Our calculator above supports all three methods, allowing you to find the radius regardless of which measurement you have available. Understanding how to find the radius from different starting points is essential for solving geometry problems and real-world applications.
             </p>
+
+            <div className="bg-orange-50 p-6 rounded-lg mb-6 border-l-4 border-orange-600">
+              <p className="font-semibold text-orange-900 mb-3">Quick Methods to Calculate Radius:</p>
+              <ul className="space-y-2 text-orange-800">
+                <li>✓ <strong>From Diameter:</strong> r = d ÷ 2 (simplest method)</li>
+                <li>✓ <strong>From Circumference:</strong> r = C ÷ (2π)</li>
+                <li>✓ <strong>From Area:</strong> r = √(A ÷ π)</li>
+              </ul>
+            </div>
 
             <h3 className="text-xl font-bold text-gray-900 mt-6 mb-3">
               Method 1: How to Find Radius from Diameter (r = d / 2)
@@ -596,6 +634,93 @@ export default function RadiusCalculator() {
                 <p className="text-amber-800">C = 6.28318 × 7</p>
                 <p className="font-bold text-amber-900">C ≈ 43.98 units</p>
               </div>
+            </div>
+
+            <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">
+              Complete Radius Formulas Reference Guide
+            </h2>
+
+            <p className="text-gray-700 leading-relaxed mb-6">
+              This comprehensive radius formula guide contains all the essential formulas for finding radius and calculating related circle measurements. Whether you&apos;re solving homework problems or working on real-world applications, these radius formulas and equations provide everything you need.
+            </p>
+
+            <div className="grid md:grid-cols-2 gap-6 mb-6">
+              <div className="bg-gradient-to-br from-blue-50 to-blue-100 p-6 rounded-lg border-l-4 border-blue-600">
+                <h4 className="text-lg font-bold text-blue-900 mb-4">Finding Radius (Primary Formulas)</h4>
+                <div className="space-y-4">
+                  <div>
+                    <p className="text-sm font-semibold text-blue-800 mb-1">From Diameter:</p>
+                    <p className="text-lg font-mono text-blue-900 bg-white p-2 rounded">r = d / 2</p>
+                  </div>
+                  <div>
+                    <p className="text-sm font-semibold text-blue-800 mb-1">From Circumference:</p>
+                    <p className="text-lg font-mono text-blue-900 bg-white p-2 rounded">r = C / (2π)</p>
+                  </div>
+                  <div>
+                    <p className="text-sm font-semibold text-blue-800 mb-1">From Area:</p>
+                    <p className="text-lg font-mono text-blue-900 bg-white p-2 rounded">r = √(A / π)</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-gradient-to-br from-green-50 to-green-100 p-6 rounded-lg border-l-4 border-green-600">
+                <h4 className="text-lg font-bold text-green-900 mb-4">Related Measurements (Using Radius)</h4>
+                <div className="space-y-4">
+                  <div>
+                    <p className="text-sm font-semibold text-green-800 mb-1">Diameter:</p>
+                    <p className="text-lg font-mono text-green-900 bg-white p-2 rounded">d = 2r</p>
+                  </div>
+                  <div>
+                    <p className="text-sm font-semibold text-green-800 mb-1">Circumference:</p>
+                    <p className="text-lg font-mono text-green-900 bg-white p-2 rounded">C = 2πr</p>
+                  </div>
+                  <div>
+                    <p className="text-sm font-semibold text-green-800 mb-1">Area:</p>
+                    <p className="text-lg font-mono text-green-900 bg-white p-2 rounded">A = πr²</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-gradient-to-br from-purple-50 to-purple-100 p-6 rounded-lg border-l-4 border-purple-600">
+                <h4 className="text-lg font-bold text-purple-900 mb-4">Coordinate Geometry</h4>
+                <div className="space-y-4">
+                  <div>
+                    <p className="text-sm font-semibold text-purple-800 mb-1">Standard Form Equation:</p>
+                    <p className="text-lg font-mono text-purple-900 bg-white p-2 rounded break-words">(x-h)² + (y-k)² = r²</p>
+                  </div>
+                  <div>
+                    <p className="text-sm font-semibold text-purple-800 mb-1">From Equation:</p>
+                    <p className="text-lg font-mono text-purple-900 bg-white p-2 rounded">r = √[(x-h)² + (y-k)²]</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-gradient-to-br from-amber-50 to-amber-100 p-6 rounded-lg border-l-4 border-amber-600">
+                <h4 className="text-lg font-bold text-amber-900 mb-4">Advanced Relationships</h4>
+                <div className="space-y-4">
+                  <div>
+                    <p className="text-sm font-semibold text-amber-800 mb-1">Radius-Diameter:</p>
+                    <p className="text-lg font-mono text-amber-900 bg-white p-2 rounded">r = d/2 or d = 2r</p>
+                  </div>
+                  <div>
+                    <p className="text-sm font-semibold text-amber-800 mb-1">Radius-Circumference:</p>
+                    <p className="text-lg font-mono text-amber-900 bg-white p-2 rounded">r ≈ 0.159 × C</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-yellow-50 border-l-4 border-yellow-600 p-6 rounded-lg mb-6">
+              <h4 className="font-bold text-yellow-900 mb-3">Formula Explanation:</h4>
+              <ul className="space-y-2 text-yellow-800">
+                <li><strong>r</strong> = radius of the circle</li>
+                <li><strong>d</strong> = diameter (width across center)</li>
+                <li><strong>C</strong> = circumference (perimeter/distance around)</li>
+                <li><strong>A</strong> = area (space inside the circle)</li>
+                <li><strong>π</strong> = pi ≈ 3.14159 (mathematical constant)</li>
+                <li><strong>(h, k)</strong> = center point of circle in coordinate system</li>
+                <li><strong>(x, y)</strong> = any point on the circle&apos;s edge</li>
+              </ul>
             </div>
 
             <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">
@@ -770,12 +895,16 @@ export default function RadiusCalculator() {
             </p>
 
             <h2 id="faq" className="text-2xl font-bold text-gray-900 mt-8 mb-4">
-              Frequently Asked Questions About Circle Radius
+              Frequently Asked Questions (40+ Common Questions About Radius)
             </h2>
 
             <p className="text-gray-700 leading-relaxed mb-6">
-              Get answers to the most common questions about finding and calculating the radius of a circle. These frequently asked questions address the most searched queries and common confusion points about radius calculations.
+              Get comprehensive answers to the most common questions about finding and calculating the radius of a circle. These frequently asked questions address the most searched queries across all platforms and cover every aspect of radius calculations, from basic definitions to advanced coordinate geometry applications.
             </p>
+
+            <div className="bg-blue-50 border-l-4 border-blue-600 p-4 rounded mb-6">
+              <p className="text-sm text-blue-900"><strong>Quick Navigation:</strong> Use Ctrl+F (or Cmd+F) to search this page for specific topics, or scroll through our comprehensive Q&A section below.</p>
+            </div>
 
             <div className="space-y-4">
               <div className="border-l-4 border-orange-500 pl-4">
@@ -861,6 +990,86 @@ export default function RadiusCalculator() {
               <div className="border-l-4 border-orange-500 pl-4">
                 <p className="font-semibold text-gray-900 mb-2">Can a circle have more than one radius?</p>
                 <p className="text-gray-700">A circle has infinite radii (plural of radius) because you can draw a line from the center to any point on the circumference. However, all these radii have the same length. When we say &quot;the radius&quot; of a circle, we mean this constant length value. This fundamental property is what makes a circle unique among geometric shapes.</p>
+              </div>
+
+              <div className="border-l-4 border-orange-500 pl-4">
+                <p className="font-semibold text-gray-900 mb-2">What is a radius formula?</p>
+                <p className="text-gray-700">A radius formula is a mathematical equation that allows you to find the radius of a circle from other known measurements. The three primary radius formulas are: r = d/2 (from diameter), r = C/(2π) (from circumference), and r = √(A/π) (from area). Each formula represents a different approach to calculating radius based on the information you have available.</p>
+              </div>
+
+              <div className="border-l-4 border-orange-500 pl-4">
+                <p className="font-semibold text-gray-900 mb-2">How to find the center and radius of a circle?</p>
+                <p className="text-gray-700">To find the center and radius from a circle equation, look at the standard form: (x - h)² + (y - k)² = r². The center is at point (h, k) and the radius is √r. If the equation is in general form (x² + y² + Dx + Ey + F = 0), complete the square to convert to standard form first. This is a common algebra application in coordinate geometry.</p>
+              </div>
+
+              <div className="border-l-4 border-orange-500 pl-4">
+                <p className="font-semibold text-gray-900 mb-2">Is the radius half the circumference?</p>
+                <p className="text-gray-700">No. The radius is NOT half the circumference. The radius is half the diameter, not the circumference. The circumference is approximately 6.28 times the radius (C = 2πr). This is a common misconception. The relationship is: radius = circumference ÷ (2π), which is very different from circumference ÷ 2.</p>
+              </div>
+
+              <div className="border-l-4 border-orange-500 pl-4">
+                <p className="font-semibold text-gray-900 mb-2">Can you find the radius calculator online?</p>
+                <p className="text-gray-700">Yes! You&apos;re using one right now. Our radius of a circle calculator lets you instantly compute the radius from diameter, circumference, or area. Simply select the input type, enter your known measurement, and get instant results including diameter, circumference, and area. No need to memorize formulas or use a scientific calculator.</p>
+              </div>
+
+              <div className="border-l-4 border-orange-500 pl-4">
+                <p className="font-semibold text-gray-900 mb-2">What is the radius of a circle with a diameter of 10?</p>
+                <p className="text-gray-700">If the diameter is 10, the radius is 5. The radius is always half the diameter, so r = d ÷ 2 = 10 ÷ 2 = 5. This is the simplest calculation for finding radius and is used more often than any other method.</p>
+              </div>
+
+              <div className="border-l-4 border-orange-500 pl-4">
+                <p className="font-semibold text-gray-900 mb-2">What is the equation of a circle with radius 5?</p>
+                <p className="text-gray-700">If the circle is centered at the origin (0,0) with radius 5, the equation is x² + y² = 25. If centered at point (h,k), it would be (x - h)² + (y - k)² = 25. The general form of a circle equation is (x - h)² + (y - k)² = r², where (h,k) is the center and r is the radius.</p>
+              </div>
+
+              <div className="border-l-4 border-orange-500 pl-4">
+                <p className="font-semibold text-gray-900 mb-2">How to calculate radius from circumference?</p>
+                <p className="text-gray-700">Use the formula r = C / (2π). Divide the circumference by 6.28318 (which is 2π). For example: if circumference is 31.4 cm, then r = 31.4 / 6.28318 ≈ 5 cm. This method is practical for measuring real circular objects by wrapping a tape around them.</p>
+              </div>
+
+              <div className="border-l-4 border-orange-500 pl-4">
+                <p className="font-semibold text-gray-900 mb-2">How to calculate radius from area?</p>
+                <p className="text-gray-700">Use the formula r = √(A / π). Divide the area by 3.14159, then take the square root of the result. For example: if area is 78.5 square cm, then r = √(78.5 / 3.14159) = √25 = 5 cm. The square root step is essential and is a common mistake to forget.</p>
+              </div>
+
+              <div className="border-l-4 border-orange-500 pl-4">
+                <p className="font-semibold text-gray-900 mb-2">What is the radius of a circle with a diameter of 12?</p>
+                <p className="text-gray-700">The radius is 6 cm. Since radius is always half the diameter: r = 12 ÷ 2 = 6. This means all points on this circle are 6 units away from the center.</p>
+              </div>
+
+              <div className="border-l-4 border-orange-500 pl-4">
+                <p className="font-semibold text-gray-900 mb-2">What is the diameter if radius is 7?</p>
+                <p className="text-gray-700">The diameter is 14. The diameter is always twice the radius: d = 2r = 2 × 7 = 14. This is the reverse relationship of finding radius from diameter.</p>
+              </div>
+
+              <div className="border-l-4 border-orange-500 pl-4">
+                <p className="font-semibold text-gray-900 mb-2">How to find radius of a circle from a chord?</p>
+                <p className="text-gray-700">To find radius from a chord, you need additional information: either the distance from the chord to the center, or the angle subtended by the chord. Use the relationship: r² = (chord/2)² + d², where d is the perpendicular distance from the chord to the center. More information is typically required than just the chord length alone.</p>
+              </div>
+
+              <div className="border-l-4 border-orange-500 pl-4">
+                <p className="font-semibold text-gray-900 mb-2">What does radius mean in a circle?</p>
+                <p className="text-gray-700">Radius is the distance measurement from the exact center point of a circle to any point on its edge (perimeter). The word comes from Latin meaning &quot;spoke of a wheel.&quot; The radius defines the size of the circle - all other properties (diameter, circumference, area) are determined by the radius value.</p>
+              </div>
+
+              <div className="border-l-4 border-orange-500 pl-4">
+                <p className="font-semibold text-gray-900 mb-2">How to write the equation of a circle with center and radius?</p>
+                <p className="text-gray-700">Use the standard form: (x - h)² + (y - k)² = r². Substitute h and k with the center coordinates, and r with the radius value. For example: circle with center (3, 4) and radius 5 has equation (x - 3)² + (y - 4)² = 25. This allows you to describe any circle algebraically.</p>
+              </div>
+
+              <div className="border-l-4 border-orange-500 pl-4">
+                <p className="font-semibold text-gray-900 mb-2">How to find radius using the distance formula?</p>
+                <p className="text-gray-700">If you know the center point (h,k) and any point (x,y) on the circle, use: r = √[(x-h)² + (y-k)²]. This is the distance formula applied to find how far a point is from the center. Any point exactly distance r from center lies on the circle.</p>
+              </div>
+
+              <div className="border-l-4 border-orange-500 pl-4">
+                <p className="font-semibold text-gray-900 mb-2">Is the radius the same everywhere on a circle?</p>
+                <p className="text-gray-700">Yes. By definition, the radius must be exactly the same distance from the center to any point on the circle. If the distance varies, it&apos;s not a true circle - it would be an ellipse or irregular shape. This constant radius is what makes a circle geometrically perfect and unique.</p>
+              </div>
+
+              <div className="border-l-4 border-orange-500 pl-4">
+                <p className="font-semibold text-gray-900 mb-2">How many radius measurements does a circle have?</p>
+                <p className="text-gray-700">A circle has infinite radius measurements (infinite radii), since you can draw a line from the center to any point on the perimeter - and there are infinitely many points. However, all these radii have exactly the same length. When we refer to &quot;the radius&quot; of a circle, we mean this single constant length value.</p>
               </div>
             </div>
 
